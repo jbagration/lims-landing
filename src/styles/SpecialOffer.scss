@@ -1,0 +1,323 @@
+.special-offer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: #B4DFFC;
+    width: 100%;
+    border-top: 10px dashed var(--white, #FFF);
+    border-bottom: 10px dashed var(--white, #FFF);
+    margin-top: 100px;
+    position: relative;
+  }
+  .special-offer-container-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 100px;
+  }
+  .special-offer-image img {
+    width: 100%;
+    max-width: 543px; 
+  }
+  .special-offer-details {
+    flex: 1;
+padding: 20px 26px 20px 26px;
+gap: 40px;
+border: 1px 0px 0px 0px;
+background: #FFFFFF;
+border: 1px solid #263238;
+max-width: 690px;
+  }
+  .special-offer-details h2 {
+    font-family: Gilroy;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 65px;
+    color: #0593F5;
+    margin: 0;
+  }
+  .special-offer-details p {
+    font-family: Gilroy;
+font-size: 46px;
+font-weight: 500;
+line-height: 55.8px;
+margin: 40px auto;
+  }
+  .special-offer-details span {
+    color: #0593F5;
+    text-decoration: underline;
+  }
+  .special-offer-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .gift-button {
+    width: 280px;
+height: 58px;
+padding: 22px 16px 22px 16px;
+gap: 6px;
+border: 3px 0px 0px 0px;
+margin: auto;
+  }
+  .gift-atom-1 {
+    position: absolute;
+top: 0px;
+left: 0px;
+z-index: 0;
+pointer-events: none;
+animation: moveGiftAtom1 20s infinite alternate;
+  }
+  @keyframes moveGiftAtom1 {
+    0% {
+      transform: translate(200px, -400px);
+    }
+    50% {
+      transform: translate(100px, -100px);
+    }
+    100% {
+      transform: translate(300px, -200px);
+    }
+  }
+  .gift-atom-2 {
+    position: absolute;
+bottom: 0px;
+left: 0px;
+z-index:0;
+pointer-events: none;
+animation: moveGiftAtom2 20s infinite alternate;
+  }
+  @keyframes moveGiftAtom2 {
+    0% {
+      transform: translate(100px, 100px);
+    }
+    50% {
+      transform: translate(50px, -100px);
+    }
+    100% {
+      transform: translate(-200px, 200px);
+    }
+  }
+  .gift-atom-3 {
+    position: absolute;
+top: 0px;
+right: 0px;
+z-index:0;
+pointer-events: none;
+animation: moveGiftAtom3 20s infinite alternate;
+  }
+  @keyframes moveGiftAtom3 {
+    0% {
+        transform: translate(-200px, -400px);
+      }
+      50% {
+        transform: translate(-100px, -100px);
+      }
+      100% {
+        transform: translate(-300px, -200px);
+      }
+  }
+  .gift-atom-4 {
+    position: absolute;
+bottom: 0px;
+right: 0px;
+z-index: 0;
+pointer-events: none;
+animation: moveGiftAtom4 20s infinite alternate;
+  }
+  @keyframes moveGiftAtom4 {
+    0% {
+      transform: translate(100px, 100px);
+    }
+    50% {
+      transform: translate(50px, -100px);
+    }
+    100% {
+      transform: translate(-200px, 200px);
+    }
+  }
+  @media (max-width: 768px)  {
+    .special-offer-container {
+      margin-top: 60px;
+      height: 600px;
+    }
+    .special-offer-container-details {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      gap: 100px;
+    }
+    .special-offer-image {
+      position: absolute;
+      left: 0;
+    }
+    .special-offer-image img {
+      width: 100%;
+      max-width: 543px; 
+    }
+    .special-offer-details {
+  border: 2px solid #263238;
+  max-width: 570px;
+  width: 100%;
+  z-index: 1;
+  margin: 0 auto;
+    }
+    .special-offer-details h2 {
+font-size: 36px;
+font-weight: 500;
+line-height: 46.8px;
+    }
+    .special-offer-details p {
+font-size: 30px;
+font-weight: 500;
+line-height: 36.39px;
+    }
+    .special-offer-details span {
+      color: #0593F5;
+      text-decoration: underline;
+    }
+    .special-offer-buttons {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+    }
+    .gift-button {
+  height: 58px;
+  gap: 6px;
+  border: 3px 0px 0px 0px;
+  margin: 0;
+  width: 260px;
+border: 3px solid #0593F5;
+font-size: 20px;
+font-weight: 600;
+line-height: 26px;
+    }
+    .gift-demo-button {
+      width: 288px;
+height: 58px;
+padding: 22px 8px 22px 8px;
+gap: 10px;
+border: 2px 0px 0px 0px;
+border: 2px solid #263238;
+font-family: Gilroy;
+font-size: 20px;
+font-weight: 500;
+line-height: 26px;
+text-align: center;
+
+    }
+    .gift-atom-1 {
+width: 150px;
+    }
+    @keyframes moveGiftAtom1 {
+      0% {
+        transform: translate(50px, 50px);
+      }
+      50% {
+        transform: translate(0px, 0px);
+      }
+      100% {
+        transform: translate(50px, 50px);
+      }
+    }
+    .gift-atom-2 {
+display: none;
+    }
+    .gift-atom-3 {
+width: 150px;
+    }
+    @keyframes moveGiftAtom3 {
+      0% {
+        transform: translate(-50px, -50px);
+      }
+      50% {
+        transform: translate(0px, 0px);
+      }
+      100% {
+        transform: translate(-50px, -50px);
+      }
+    }
+    .gift-atom-4 {
+      width: 250px;
+    }
+    @keyframes moveGiftAtom4 {
+      0% {
+        transform: translate(50px, 100px);
+      }
+      50% {
+        transform: translate(0px, 50px);
+      }
+      100% {
+        transform: translate(50px, 100px);
+      }
+    }
+  }
+  @media (max-width: 430px)  {
+    .special-offer-container {
+      height: 459px;
+    }
+    .special-offer-container-details {
+      gap: 100px;
+    }
+    .special-offer-image img {
+      max-width: 424px; 
+    }
+    .special-offer-details {
+  max-width: 288px;
+  width: 100%;
+  margin: 0 auto;
+    }
+    .special-offer-details h2 {
+      font-size: 26px;
+      line-height: 33.8px;
+      text-align: center;
+    }
+    .special-offer-details p {
+      font-size: 20px;
+      line-height: 24.26px;
+      text-align: center;
+      margin: 20px auto;
+    }
+    .special-offer-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+    }
+    .gift-button {
+      width: 236px;
+      height: 43px;
+      padding: 22px 16px 22px 16px;
+font-size: 16px;
+line-height: 20.8px;
+    }
+    .gift-demo-button {
+      width: 288px;
+height: 58px;
+padding: 22px 8px 22px 8px;
+gap: 10px;
+border: 2px 0px 0px 0px;
+border: 2px solid #263238;
+font-family: Gilroy;
+font-size: 20px;
+font-weight: 500;
+line-height: 26px;
+text-align: center;
+
+    }
+    .gift-atom-1 {
+display: none;
+    }
+    .gift-atom-3 {
+      display: none;
+    }
+    .gift-atom-4 {
+      display: none;
+    }
+  }

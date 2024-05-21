@@ -1,0 +1,124 @@
+.price-card-container {
+    display: flex;
+    width: 372px;
+    height: 274px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid var(--txt-border, #263238);
+background: #FFF;
+transition: color 0.3s ease; 
+&:hover {
+&.style-1 {
+    border: 6px dashed #0593F5;
+    background: rgba(5, 147, 245, 0.50);
+    backdrop-filter: blur(5px);
+    padding: 17px;
+}
+&.style-2 {
+    border: 6px dashed #FFCD48;
+    background: rgba(255, 219, 128, 0.50);
+    backdrop-filter: blur(5px);
+    padding: 17px;
+
+}
+&.style-3 {
+    border: 6px dashed #47E683;
+    background: rgba(128, 255, 175, 0.50);
+    backdrop-filter: blur(5px);
+    padding: 17px;
+
+}}
+@media (max-width: 768px) {
+    display: flex;
+    width: 295px;
+    height: 210px;
+    border: 2px solid var(--txt-border, #263238);
+    width: 310px;
+height: 260px;
+}
+@media (max-width: 430px) {
+    width: 295px;
+    height: 210px;
+    margin-bottom: 20px;
+}
+  }
+  .price-card-container:hover .price-card{
+    border: 1px solid var(--txt-border, #263238);
+    background: #D7F9E3;
+  }
+.price-card {
+display: flex;
+width: 340px;
+height: 194px;
+padding: 40px 16px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 12px;
+flex-shrink: 0;
+border: 1px solid var(--txt-border, #263238);
+background: #FFF;
+    &:hover {
+        &.style-1 {
+        border: 1px solid var(--txt-border, #263238);
+background: #D7F9E3;
+    }
+    &.style-2 {
+        border: 1px solid var(--txt-border, #263238);
+        background: #CDE9FD;
+    }
+    &.style-3 {
+        border: 1px solid var(--txt-border, #263238);
+        background: #FFF1CC;
+    }}
+
+    @media (max-width: 768px) {
+        gap: 12px;
+        width: 278px;
+height: 180px;
+padding: 40px 16px 40px 16px;
+    }
+    @media (max-width: 430px) {
+        width: 263px;
+        height: 130px;
+        padding: 40px 16px 40px 16px;
+    }
+  }
+  .price-card-title {
+    margin: 0;
+    align-self: stretch;
+    color: var(--txt-normal, #222);
+text-align: center;
+font-family: Delius;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; 
+@media (max-width: 768px) {
+font-size: 36px;
+line-height: 46.8px;
+}
+@media (max-width: 430px) {
+    font-size: 24px;
+    line-height: 31.2px;
+    }
+  }
+  .price-card-text {
+    margin: 0;
+    align-self: stretch;
+    color: var(--txt-normal, #222);
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+@media (max-width: 768px) {
+font-size: 20px;
+font-weight: 400;
+line-height: 24.2px;
+}
+@media (max-width: 430px) {
+    font-size: 16px;
+    line-height: 18.2px;
+}  }

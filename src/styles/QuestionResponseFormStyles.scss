@@ -1,0 +1,247 @@
+.question-response-container {
+width: 906px;
+height: 465px;
+flex-shrink: 0;
+border: 10px dashed var(--white, #FFF);
+backdrop-filter: blur(5px);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 200px auto;
+position: relative;
+position: relative; 
+z-index: 2;
+@media (max-width: 768px) {
+width: 700px;
+height: 451px;
+}
+@media (max-width: 430px) {
+  display: flex;
+  width: 305px;
+  height: 317px;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 138px;
+}
+@media (max-width: 320px) {
+  width:295px;
+  height: 317px;
+}
+}
+.question-response-container {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 200px auto;
+  position: relative;
+  z-index: 2;
+  @media (max-width: 768px) {
+    margin: 120px auto;
+  }
+  @media (max-width: 430px) {
+margin-top: 150px;
+  }
+}
+.question-response-container::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border: 10px dashed var(--white, #FFF);
+  background: rgba(5, 147, 245, 0.50);
+  backdrop-filter: blur(5px);
+  position: absolute;
+  z-index: 2;
+  @media (max-width: 320px) {
+
+  }
+}
+.question-response-form-container {
+width: 866px;
+height: 425px;
+flex-shrink: 0;
+border: 1px solid var(--txt-border, #263238);
+background: #FFF;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+z-index: 3;
+@media (max-width: 768px) {
+  width: 660px;
+  height: 411px;
+}
+@media (max-width:430px) {
+  display: flex;
+  width: 295px;
+  height: 277px;
+  padding: 30px 10px 20px 10px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  flex-shrink: 0;
+}
+}
+.question-response-form-container h2 {
+width: 690px;
+color: #0D3754;
+text-align: center;
+font-family: Gilroy-Medium;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%;
+margin: 0;
+padding: 0;
+margin-top: 38px;
+@media (max-width: 768px) {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31.2px;
+}
+@media (max-width: 430px) {
+  color: #0D3754;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; 
+  margin: 0;
+}
+}
+.question-response-form-container p {
+width: 690px;
+color: #222;
+text-align: center;
+font-family: Gilroy-Medium;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; 
+margin: 0;
+padding: 0;
+margin-top: 16px;
+margin-bottom: 20px;
+@media (max-width: 768px) {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18.2px;
+}
+@media (max-width: 430px) {
+  color: #222;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%; 
+  width: 301px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+}
+.question-response-button {
+margin-top: 20px;
+}
+.feedback-atom-1 {
+position: absolute;
+bottom: 140px;
+left: -400px;
+z-index: -1;
+pointer-events: none;
+@media (max-width: 768px) {
+
+}
+@media (max-width: 430px) {
+  top: 380px;
+  left: 240px;
+}
+}
+.feedback-atom-2 {
+position: absolute;
+bottom: 80px;
+left: -250px;
+z-index: -2;
+pointer-events: none;
+@media (max-width: 768px) {
+
+}
+@media (max-width: 430px) {
+  width: 149.289px;
+  height: 151.151px;
+  transform: rotate(-122.48deg);
+  flex-shrink: 0;
+  top: 0px;
+  left: -30px;
+}
+}
+.feedback-atom-3 {
+position: absolute;
+bottom: -100px;
+right: -250px;
+z-index: -1;
+pointer-events: none;
+@media (max-width: 768px) {
+
+}
+@media (max-width: 430px) {
+  height: 95px;
+  left: 10px;
+  bottom: -120px !important;
+}
+}
+.feedback-arrow {
+position: absolute;
+top: -215px;
+right: -200px;
+z-index: 1;
+pointer-events: none;
+@media (max-width: 768px) {
+  display: none;
+}
+}
+@keyframes moveFeedbackAtom1 {
+  0% {
+    transform: translate(0, 100px);
+  }
+  50% {
+    transform: translate(100px, 0px);
+  }
+  100% {
+    transform: translate(200px, -200px);
+  }
+}
+@keyframes moveFeedbackAtom2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(300px, -50px);
+  }
+  100% {
+    transform: translate(100px, 5px);
+  }
+}
+.feedback-atom-1 {
+  position: absolute;
+  bottom: 140px;
+  left: -400px;
+  animation: moveFeedbackAtom1 20s infinite alternate;
+}
+
+.feedback-atom-2 {
+  position: absolute;
+  bottom: -180px;
+  left: -250px;
+  animation: moveFeedbackAtom2 20s infinite alternate;
+}
+
+.feedback-atom-3 {
+  position: absolute;
+  bottom: -100px;
+  right: -250px;
+}
+

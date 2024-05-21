@@ -1,0 +1,380 @@
+.company-info {
+width: 100%;
+max-width: 1900px;
+}
+.company-info-container {
+position: relative;
+display: flex;
+background-size: cover;
+background-position: center bottom;
+overflow: hidden;
+margin-top: 237px;
+margin-bottom: 100px;
+}
+.company-info-up-content, .company-info-down-content {
+  z-index: 2;
+}
+.company-info-textBlock {
+display: flex;
+flex-direction: column-reverse;
+gap: 20px;
+margin: 0 auto;
+}
+.company-info-image-container {
+background-image: url('../assets/background.png');
+max-width: 1000px;
+width: 100%;
+height: auto;
+margin: 0 auto;
+position: relative;
+margin-top: 20px;
+margin-left: -300px;
+border-bottom: 2px solid #000;
+}
+.company-info-centered-button {
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  position: absolute;
+  bottom: 190px;
+  right: 300px;
+  }
+.vector-1 {
+position: absolute;
+bottom: 260px;
+left: 285px;
+z-index: 1;
+}
+.vector-1 {
+  animation: changeColorAndRotateVector1 3s forwards;
+}
+@keyframes changeColorAndRotateVector1 {
+  to {
+    stroke-width: 2px;
+    stroke: var(--txt-border, #263238);
+    filter: drop-shadow(0px 2px 4px rgba(77, 0, 23, 0.10)) drop-shadow(0px 8px 8px rgba(77, 0, 23, 0.09)) drop-shadow(0px 17px 10px rgba(77, 0, 23, 0.05)) drop-shadow(0px 30px 12px rgba(77, 0, 23, 0.01)) drop-shadow(0px 48px 13px rgba(77, 0, 23, 0.00));    
+    transform: rotate(10deg); 
+    width: 191.912px;
+    height: 138.857px;
+bottom: 260px;
+left: 292px;
+  }
+}
+.vector-2 {
+position: absolute;
+bottom: 60px;
+right: 280px;
+z-index: 2;
+}
+.vector-2 {
+  animation: changeColorAndRotateVector2 3s forwards;
+}
+@keyframes changeColorAndRotateVector2 {
+  to {
+    stroke-width: 2px;
+    stroke: var(--accent-1, #80FFAF);
+    filter: drop-shadow(0px 48px 13px rgba(77, 0, 23, 0.00)) drop-shadow(0px 30px 12px rgba(77, 0, 23, 0.01)) drop-shadow(0px 17px 10px rgba(77, 0, 23, 0.05)) drop-shadow(0px 8px 8px rgba(77, 0, 23, 0.09));    
+    width: 204.826px;
+    height: 138.131px;
+    transform: rotate(0.246deg);
+right: 285px;
+  }
+}
+.vector-3 {
+position: absolute;
+bottom: 50px;
+left: 180px;
+z-index: 1;
+}
+.vector-3 {
+  animation: changeColorAndRotateVector3 3s forwards;
+}
+@keyframes changeColorAndRotateVector3 {
+  to {
+    width: 169.65px;
+height: 231.678px;
+transform: rotate(8.882deg);
+flex-shrink: 0;
+bottom: -2px;
+left: 155px;
+    stroke-width: 2.5px;
+    stroke: var(--txt-border, #263238);
+    filter: drop-shadow(0px 2px 4px rgba(77, 0, 23, 0.10)) drop-shadow(0px 8px 8px rgba(77, 0, 23, 0.09)) drop-shadow(0px 17px 10px rgba(77, 0, 23, 0.05));   
+  }
+}
+.vector-4 {
+position: absolute;
+bottom: 180px;
+right: 260px;
+z-index: 1;
+}
+.vector-4 {
+  animation: changeColorAndRotateVector4 3s forwards;
+}
+@keyframes changeColorAndRotateVector4 {
+  to {
+    width: 136.773px;
+height: 149.527px;
+transform: rotate(10.728deg);
+    stroke-width: 2px;
+    bottom: 180px;
+right: 235px;
+    stroke: var(--txt-border, #263238);
+    filter: drop-shadow(0px 2px 4px rgba(77, 0, 23, 0.10)) drop-shadow(0px 8px 8px rgba(77, 0, 23, 0.09)) drop-shadow(0px 17px 10px rgba(77, 0, 23, 0.05)) drop-shadow(0px 30px 12px rgba(77, 0, 23, 0.01)) drop-shadow(0px 48px 13px rgba(77, 0, 23, 0.00));
+  }
+}
+.thing-1 {
+  position: absolute;
+  bottom: 10px;
+  right:80px;
+  z-index: 1;
+  }
+  .thing-1 {
+    animation: changeColorAndRotateThing1 3s forwards;
+  }
+  @keyframes changeColorAndRotateThing1 {
+    to {
+  transform: rotate(-30deg);
+  bottom: 10px;
+  right:100px;
+  fill: #7EFDAD; 
+    }
+  }
+  .thing-1 path[fill="#F5F5F5"],
+  .thing-2 path[fill="#F5F5F5"] {
+    animation: changeColorThing1 3s forwards;
+  }
+@keyframes changeColorThing1 {
+  to {
+fill: #7EFDAD; 
+  }
+}
+  .thing-2 {
+    position: absolute;
+    top: 30px;
+    left: 90px;
+    z-index: 1;
+    }
+    .thing-2 {
+      animation: changeColorAndRotateThing2 3s forwards;
+    }
+    @keyframes changeColorAndRotateThing2 {
+      to {
+    transform: rotate(180deg);
+    top: 20px;
+    left: 85px;
+      }
+    }
+    .tablet-thing-1 {
+      position: absolute;
+      bottom: 0px;
+      right:0px;
+      z-index: 1;
+      }
+      .tablet-thing-1 {
+        animation: changeColorAndRotateTabletThing1 3s forwards;
+      }
+      @keyframes changeColorAndRotateTabletThing1 {
+        to {
+      transform: rotate(-30deg);
+      bottom: 30px;
+      right:-20px;
+      fill: #7EFDAD; 
+        }
+      }
+      .tablet-thing-1 path[fill="#F5F5F5"],
+      .tablet-thing-2 path[fill="#F5F5F5"] {
+        animation: changeColorTabletThing1 3s forwards;
+      }
+    @keyframes changeColorTabletThing1 {
+      to {
+    fill: #7EFDAD; 
+      }
+    }
+      .tablet-thing-2 {
+        position: absolute;
+        top: 20px;
+        left: -40px;
+        z-index: 0;
+        }
+        .tablet-thing-2 {
+          animation: changeColorAndRotateTabletThing2 3s forwards;
+        }
+        @keyframes changeColorAndRotateTabletThing2 {
+          to {
+        transform: rotate(180deg);
+        top: 20px;
+        left: -40px;
+          }
+        }
+.circle-1 {
+  position: absolute;
+  bottom: 100px;
+  left: -200px;
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  animation: moveCircle1 3s ease-out forwards;
+}
+.circle-2 {
+  position: absolute;
+  top: -100px;
+  right: -200px;
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  animation: moveCircle2 3s ease-out forwards;
+}
+.circle-3 {
+  position: absolute;
+  bottom: 300px;
+  right: -300px;
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  animation: moveCircle3 3s ease-out forwards;
+}
+@keyframes moveCircle1 {
+  to {
+    bottom: 330px;
+    left: 40px;
+  }
+}
+@keyframes moveCircle2 {
+  to {
+    top: -5px;
+    right: 25px;
+  }
+}
+@keyframes moveCircle3 {
+  to {
+    bottom: 165px;
+    right: 20px;
+  }
+}
+@media (max-width: 768px) {
+    .company-info-container {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    }
+    .company-info-textBlock {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    margin: 0 auto;
+    }
+    .company-info-image-container {
+    background-image: url('../assets/background-tablet.png');
+    max-width: 1000px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 10px;
+    margin-left: -350px;
+    border-bottom: 2px solid #000;
+    }
+    .company-info-centered-button {
+      width: 283px;
+      height: 58px;
+      padding: 22px 8px 22px 8px;
+      gap: 10px;
+      border: 2px 0px 0px 0px;
+      background-color: #0593F5;
+      border: 2px solid #263238;
+font-size: 20px;
+font-weight: 500;
+line-height: 26px;
+bottom: 210px;
+right: 28px;
+@media (max-width: 425px) {
+  right: 75px;
+}
+      }
+}
+/* mobile */
+.mobile-company-info {
+width: 100%;
+}
+.mobile-company-text-block-about {
+  margin: 0 auto;
+}
+.mobile-company-info-button-under-text {
+bottom: 12px;
+position: absolute;
+left: 15px;
+}
+.mobile-company-info-left-content {
+gap: 40px;
+z-index: 1;
+}
+.mobile-company-info-right-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  z-index:1;
+}
+.mobile-company-info-centered-button {
+  z-index: 5;
+  position: absolute;
+  bottom: 110px;
+  margin: 0 auto;
+}
+.mobile-company-button-container {
+  background-image: url('../assets/mobile-company-info.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-width: 375px;
+  height: 372px;
+  flex-shrink: 0;
+  position: relative;
+  margin-top: -50px;
+  z-index: 0;
+  overflow: hidden; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mobile-company-info-image-button {
+  position: absolute;
+  bottom: 12px;
+  right: 15px;
+  display: flex;
+  width: 34px;
+  height: 34px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border: 2px solid #00041A;
+background: var(--accent-2, #0593F5);
+cursor: pointer;
+display: none;
+}
+.mobile-company-info-image-button svg {
+  width: 40px;
+  height: 36.777px;
+  flex-shrink: 0;
+  fill: var(--white, #FFF);
+stroke-width: 2px;
+stroke: var(--txt-border, #263238);
+}
+.mobile-company-info-image-button text {
+  color: var(--txt-border, #263238);
+  font-family: Gilroy;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  width: 12px;
+height: 28px;
+flex-shrink: 0;
+}
+.mobile-company-text-blocks {
+  display: flex;
+  flex-direction: column;
+  margin-top: -40px;
+}

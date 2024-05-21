@@ -1,0 +1,240 @@
+.urgent-program-section {
+    .urgent-price-header-text {
+        font-weight: 600;
+    }
+    height: auto;
+    padding: 20px 542px 20px 542px !important;
+}
+.lims-presentation-pdf {
+    display: flex;
+    flex-direction: row;
+}
+.urgent-price-section {
+    width: 100vw;
+height: auto;
+padding: 50px 542px 48px 540px;
+border-width: 2px 0px 2px 0px;
+border-style: dashed;
+border-color: #263238;
+margin-top: 75px;
+background-color: white;
+}
+.urgent-price-container {
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 835px;
+height: auto;
+gap: 20px;
+}
+.urgent-price-header-text {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+}
+.urgent-price-sub-header-text {
+font-size: 32px;
+font-weight: 400;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: center;
+width: 690px;
+margin: 0;
+}
+.urgent-price-download-block {
+font-size: 36px;
+font-weight: 500;
+line-height: 47px;
+letter-spacing: 0em;
+text-align: left;
+color: #0593F5;
+display: flex;
+align-items: center;
+flex-direction: row;
+cursor: pointer;
+}
+.urgent-price-download-block p {
+    margin: 0;
+    border-bottom: 1px solid #0593F5;
+}
+.urgent-price-button {
+    width: 310px;
+height: 60px;
+font-size: 32px;
+font-weight: 600;
+line-height: 47px;
+letter-spacing: 0em;
+text-align: center;
+cursor: pointer;
+}
+@media (max-width: 768px)  {
+    .urgent-program-section {
+        .urgent-price-header-text {
+            font-weight: 600;
+            white-space: nowrap;
+font-size: 20px;
+line-height: 26px;
+text-align: left;
+        }
+        .urgent-price-sub-header-text {
+font-size: 16px;
+font-weight: 400;
+line-height: 20.8px;
+text-align: center;
+        }
+        .urgent-price-container {
+            gap: 8px;
+            max-width: 768px;
+        }
+        .urgent-price-download-block p {
+            font-family: Gilroy;
+font-size: 20px;
+font-weight: 500;
+line-height: 26px;
+text-align: left;
+        }
+        .urgent-price-download-block svg {
+            width: 30px;
+            height: 30px;
+        }
+        height: 93px !important;
+        padding: 10px 542px 10px 542px !important;
+        margin-top: 40px !important;
+    }
+    .urgent-price-section {
+        width: 100%;
+    height: 250px;
+    padding: 50px 542px 48px 540px;
+    border-width: 2px 0px 2px 0px;
+    border-style: dashed;
+    border-color: #263238;
+    }
+    .urgent-price-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 236px;
+    gap: 20px;
+    max-width: 768px;
+    }
+    .urgent-price-header-text {
+        max-width: 602px;
+        text-align: center;
+        margin: 0;
+font-size: 28px;
+font-weight: 400;
+line-height: 36.4px;
+    }
+    .urgent-price-sub-header-text {
+        text-align: center;
+    max-width: 619px;
+    margin: 0;
+font-size: 24px;
+line-height: 31.2px;
+    }
+    .urgent-price-download-block {
+    color: #0593F5;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+font-size: 24px;
+font-weight: 500;
+line-height: 31.2px;
+    }
+    .urgent-price-download-block p {
+        margin: 0;
+        border-bottom: 1px solid #0593F5;
+    }
+    .urgent-price-download-block svg {
+        width: 50px;
+        height: 50px;
+    }
+    .urgent-price-button {
+        width: 260px;
+        height: 58px;
+        padding: 22px 8px 22px 8px;
+        border: 2px;
+        border: 2px solid #263238;
+        gap: 10px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20.8px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+}
+@media (max-width: 430px)  {
+    .urgent-program-section {
+        .urgent-price-header-text {
+            font-size: 16px;
+            line-height: 20.8px;
+            text-align: left;
+            max-width: 375px;
+        }
+        .urgent-price-sub-header-text {
+            font-family: Gilroy;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 15.6px;
+            text-align: center;
+            max-width: 320px;
+        }
+        .urgent-price-container {
+            gap: 8px;
+            max-width: 375px;
+        }
+        .urgent-price-download-block p {
+            font-size: 16px;
+            line-height: 20.8px;
+            height: 21px;
+        }
+        .urgent-price-download-block svg {
+            width: 26px;
+            height: 26px;
+        }
+        height: 93px !important;
+        padding: 10px 542px 10px 542px !important;
+        margin-top: 40px !important;
+    }
+    .urgent-price-section {
+        width: 100%;
+height: auto;
+padding: 50px 26px 44px 26px;
+gap: 0px;
+    }
+    .urgent-price-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 100%;
+    }
+    .urgent-price-header-text {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .urgent-price-sub-header-text {
+        font-size: 16px;
+        line-height: 20.8px;
+        max-width: 320px;
+    }
+    .urgent-price-download-block {
+        font-size: 16px;
+        line-height: 20.8px;
+    }
+    .urgent-price-download-block svg {
+        width: 24px;
+        height: 24px;
+    }
+    .urgent-price-button {
+        width: 236px;
+        height: 58px;
+    }
+}

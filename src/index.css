@@ -1,0 +1,131 @@
+@font-face {
+  font-family: 'Delius';
+  src: url('/public/fonts/Delius/Delius-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/public/fonts/Gilroy/Gilroy-Regular.woff2') format('woff2'),
+       url('/public/fonts/Gilroy/Gilroy-Regular.woff') format('woff'),
+       url('/public/fonts/Gilroy/Gilroy-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url('/public/fonts/Gilroy/Gilroy-Bold.woff2') format('woff2'),
+       url('/public/fonts/Gilroy/Gilroy-Bold.woff') format('woff'),
+       url('/public/fonts/Gilroy/Gilroy-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: url('/public/fonts/Gilroy/Gilroy-Medium.woff2') format('woff2'),
+       url('/public/fonts/Gilroy/Gilroy-Medium.woff') format('woff'),
+       url('/public/fonts/Gilroy/Gilroy-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Gilroy-Semibold';
+  src: url('/public/fonts/Gilroy/Gilroy-Semibold.woff2') format('woff2'),
+       url('/public/fonts/Gilroy/Gilroy-Semibold.woff') format('woff'),
+       url('/public/fonts/Gilroy/Gilroy-Semibold.ttf') format('truetype');
+}
+:root {
+  --txt-normal: #222;
+  --accent-1: #80FFAF;
+  --accent-2: #0593F5;
+  --bg-accent: #B4DFFC;
+  --white: #FFF;
+  --grey: #949599;
+  --txt-border: #263238;
+}
+body {
+  margin: 0 auto;
+  font-family: 'Gilroy', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  max-width: 100%;
+}
+img {
+  user-select: none;
+}
+code {
+  font-family: 'Gilroy', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+html {
+  zoom: 0.9;
+width: 100%;
+margin: 0 auto;
+}
+input[type="text"],
+input[type="tel"] {
+  border-radius: 0;
+}
+@media (max-width: 1600px) {
+  html {
+    zoom: 0.8;
+  }
+}
+@media (max-width: 1024px) {
+  html {
+    zoom: 0.7;
+  }
+}
+@media (max-width: 960px) {
+  header {
+    zoom: 0.6;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    zoom: 1;
+  }
+}
+@media (max-width: 750px) {
+  html {
+    zoom: 0.9;
+  }
+}
+@media (max-width: 600px) {
+  html {
+    zoom: 0.83;
+  }
+}
+@media (max-width: 550px) {
+  html {
+    zoom: 0.81;
+  }
+}
+@media (max-width: 550px) {
+  html {
+    zoom: 0.8;
+  }
+}
+@media (max-width: 500px) {
+  html {
+    zoom: 0.79;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    zoom: 0.75;
+  }
+}
+@media (max-width: 430px) {
+  html {
+    zoom: 1;
+  }
+}
+@media (max-width: 320px) {
+  html {
+    zoom: 0.95;
+  }
+  .mobile-menu-modal {
+    zoom: 1.2;
+  }
+}
